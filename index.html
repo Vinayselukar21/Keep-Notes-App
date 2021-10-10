@@ -20,7 +20,7 @@
     .container h2, .card-body h5{
         color: white;
     }
-    .card-body, #addTxt, .navbar,#searchTxt{
+    .card-body, #addTxt,#addTtl, .navbar,#searchTxt{
         background-color: black !important;
         color: white;
     }
@@ -53,6 +53,10 @@
         <h2>Welcome To Magic Notes</h2>
         <div class="card">
             <div class="card-body">
+                <h5 class="card-title">Add Title</h5>
+                <div class="form-group">
+                    <input type="text" name="title" class="form-control" id="addTtl">
+                </div>
                 <h5 class="card-title">Add a note</h5>
                 <div class="form-group">
                     <textarea class="form-control" id="addTxt" rows="3"></textarea>
